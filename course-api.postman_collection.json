@@ -1,0 +1,680 @@
+{
+	"info": {
+		"_postman_id": "6dc9bb27-c5a9-4ffa-9399-335d9c584762",
+		"name": "JavaBrains Spring Boot Quick Start",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Hello",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/hello",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"hello"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Topics",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/topics",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Courses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/courses",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lessons",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/lessons",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"lessons"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Java Courses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/topics/java/courses",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						"java",
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Spring Courses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/topics/spring/courses",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						"spring",
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Python Courses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/topics/python/courses",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						"python",
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "JavaScript Courses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/topics/javascript/courses",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						"javascript",
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Java Streams Lessons",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/topics/java/courses/java-streams/lessons",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						"java",
+						"courses",
+						"java-streams",
+						"lessons"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Topic \"java\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/topics/java",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						"java"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Topic \"spring\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/topics/spring",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						"spring"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Topic \"python\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/topics/python",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						"python"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Topic \"javascript\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/topics/javascript",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						"javascript"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Course \"java-streams\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/topics/java/courses/java-streams",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						"java",
+						"courses",
+						"java-streams"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lesson \"java-streams-1\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/topics/java/courses/java-streams/lessons/java-streams-1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						"java",
+						"courses",
+						"java-streams",
+						"lessons",
+						"java-streams-1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add \"java\" Topic",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"java\",\n    \"name\": \"Core Java\",\n    \"description\": \"Core Java Description\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/topics",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add \"spring\" Topic",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"spring\",\n    \"name\": \"Spring Framework\",\n    \"description\": \"Spring Framework Description\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/topics",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add \"python\" Topic",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"python\",\n    \"name\": \"Python\",\n    \"description\": \"Python Description\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/topics",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add \"javascript\" Topic",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"javascript\",\n    \"name\": \"JavaScript\",\n    \"description\": \"JavaScript Description\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/topics",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add \"java-streams\" Course",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"java-streams\",\n    \"name\": \"Java Streams\",\n    \"description\": \"Java Streams Description\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/topics/java/courses",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						"java",
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add \"spring-boot\" Course",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"spring-boot\",\n    \"name\": \"Spring Boot\",\n    \"description\": \"Spring Boot Description\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/topics/spring/courses",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						"spring",
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add \"java-streams-1\" Lesson",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"java-streams-1\",\n    \"name\": \"Java Streams 1\",\n    \"description\": \"Java Streams 1 Description\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/topics/java/courses/java-streams/lessons",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						"java",
+						"courses",
+						"java-streams",
+						"lessons"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update \"python\" Topic",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"python\",\n    \"name\": \"Updated Python\",\n    \"description\": \"Updated Python Description\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/topics/python",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						"python"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update \"java-streams\" Course",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"java-streams\",\n    \"name\": \"Updated Java Streams\",\n    \"description\": \"Updated Java Streams Description\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/topics/java/courses/java-streams",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						"java",
+						"courses",
+						"java-streams"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update \"java-streams-1\" Lesson",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"java-streams-1\",\n    \"name\": \"Updated Java Streams 1\",\n    \"description\": \"Updated Java Streams 1 Description\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/topics/java/courses/java-streams/lessons/java-streams-1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						"java",
+						"courses",
+						"java-streams",
+						"lessons",
+						"java-streams-1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete \"python\" Topic",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/topics/python",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						"python"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete \"java-streams\" Course",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/topics/java/courses/java-streams",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						"java",
+						"courses",
+						"java-streams"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete \"java-streams-1\" Lesson",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/topics/java/courses/java-streams/lessons/java-streams-1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						"java",
+						"courses",
+						"java-streams",
+						"lessons",
+						"java-streams-1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
