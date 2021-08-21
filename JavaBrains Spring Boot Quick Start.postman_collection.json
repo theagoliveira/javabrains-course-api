@@ -300,6 +300,29 @@
 			"response": []
 		},
 		{
+			"name": "Lesson \"java-streams-1\" Bug",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/topics/python/courses/java-streams/lessons/java-streams-1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topics",
+						"python",
+						"courses",
+						"java-streams",
+						"lessons",
+						"java-streams-1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "Add \"java\" Topic",
 			"request": {
 				"method": "POST",
