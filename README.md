@@ -461,8 +461,8 @@ DELETE /topics/:topicId/courses/:courseId/lessons/:id
 
 ### Bugs
 
-- [Get Course](#get-course) request ignores `lessonId` (no verification is done)
-- [Get Lesson](#get-lesson) request ignores `lessonId` and `courseId` (no verification is done)
+- [Get Course by ID](#get-course-by-id) request ignores `lessonId` (no verification is done)
+- [Get Lesson by ID](#get-lesson-by-id) request ignores `lessonId` and `courseId` (no verification is done)
 - [Update Topic](#update-topic) request ignores `id`. so a new topic is created if a new id is provided in the request body
 - [Update Course](#update-course) request ignores `id`. so a new course is created if a new id is provided in the request body
 - [Update Lesson](#update-lesson) request ignores `id`. so a new lesson is created if a new id is provided in the request body
