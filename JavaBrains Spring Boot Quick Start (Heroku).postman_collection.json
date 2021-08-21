@@ -1,0 +1,761 @@
+{
+	"info": {
+		"_postman_id": "4dcad082-3fbf-4b5f-9a61-2e27f447b030",
+		"name": "JavaBrains Spring Boot Quick Start (Heroku)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Hello",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://obscure-citadel-61856.herokuapp.com/hello",
+					"protocol": "https",
+					"host": [
+						"obscure-citadel-61856",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"hello"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Topics",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://obscure-citadel-61856.herokuapp.com/topics",
+					"protocol": "https",
+					"host": [
+						"obscure-citadel-61856",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"topics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Courses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://obscure-citadel-61856.herokuapp.com/courses",
+					"protocol": "https",
+					"host": [
+						"obscure-citadel-61856",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lessons",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://obscure-citadel-61856.herokuapp.com/lessons",
+					"protocol": "https",
+					"host": [
+						"obscure-citadel-61856",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"lessons"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Java Courses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://obscure-citadel-61856.herokuapp.com/topics/java/courses",
+					"protocol": "https",
+					"host": [
+						"obscure-citadel-61856",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"topics",
+						"java",
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Spring Courses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://obscure-citadel-61856.herokuapp.com/topics/spring/courses",
+					"protocol": "https",
+					"host": [
+						"obscure-citadel-61856",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"topics",
+						"spring",
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Python Courses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://obscure-citadel-61856.herokuapp.com/topics/python/courses",
+					"protocol": "https",
+					"host": [
+						"obscure-citadel-61856",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"topics",
+						"python",
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "JavaScript Courses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://obscure-citadel-61856.herokuapp.com/topics/javascript/courses",
+					"protocol": "https",
+					"host": [
+						"obscure-citadel-61856",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"topics",
+						"javascript",
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Java Streams Lessons",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://obscure-citadel-61856.herokuapp.com/topics/java/courses/java-streams/lessons",
+					"protocol": "https",
+					"host": [
+						"obscure-citadel-61856",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"topics",
+						"java",
+						"courses",
+						"java-streams",
+						"lessons"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Topic \"java\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://obscure-citadel-61856.herokuapp.com/topics/java",
+					"protocol": "https",
+					"host": [
+						"obscure-citadel-61856",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"topics",
+						"java"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Topic \"spring\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://obscure-citadel-61856.herokuapp.com/topics/spring",
+					"protocol": "https",
+					"host": [
+						"obscure-citadel-61856",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"topics",
+						"spring"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Topic \"python\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://obscure-citadel-61856.herokuapp.com/topics/python",
+					"protocol": "https",
+					"host": [
+						"obscure-citadel-61856",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"topics",
+						"python"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Topic \"javascript\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://obscure-citadel-61856.herokuapp.com/topics/javascript",
+					"protocol": "https",
+					"host": [
+						"obscure-citadel-61856",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"topics",
+						"javascript"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Course \"java-streams\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://obscure-citadel-61856.herokuapp.com/topics/java/courses/java-streams",
+					"protocol": "https",
+					"host": [
+						"obscure-citadel-61856",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"topics",
+						"java",
+						"courses",
+						"java-streams"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lesson \"java-streams-1\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://obscure-citadel-61856.herokuapp.com/topics/java/courses/java-streams/lessons/java-streams-1",
+					"protocol": "https",
+					"host": [
+						"obscure-citadel-61856",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"topics",
+						"java",
+						"courses",
+						"java-streams",
+						"lessons",
+						"java-streams-1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lesson \"java-streams-1\" Bug",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://obscure-citadel-61856.herokuapp.com/topics/python/courses/java-streams/lessons/java-streams-1",
+					"protocol": "https",
+					"host": [
+						"obscure-citadel-61856",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"topics",
+						"python",
+						"courses",
+						"java-streams",
+						"lessons",
+						"java-streams-1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add \"java\" Topic",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"java\",\n    \"name\": \"Core Java\",\n    \"description\": \"Core Java Description\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://obscure-citadel-61856.herokuapp.com/topics",
+					"protocol": "https",
+					"host": [
+						"obscure-citadel-61856",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"topics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add \"spring\" Topic",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"spring\",\n    \"name\": \"Spring Framework\",\n    \"description\": \"Spring Framework Description\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://obscure-citadel-61856.herokuapp.com/topics",
+					"protocol": "https",
+					"host": [
+						"obscure-citadel-61856",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"topics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add \"python\" Topic",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"python\",\n    \"name\": \"Python\",\n    \"description\": \"Python Description\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://obscure-citadel-61856.herokuapp.com/topics",
+					"protocol": "https",
+					"host": [
+						"obscure-citadel-61856",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"topics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add \"javascript\" Topic",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"javascript\",\n    \"name\": \"JavaScript\",\n    \"description\": \"JavaScript Description\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://obscure-citadel-61856.herokuapp.com/topics",
+					"protocol": "https",
+					"host": [
+						"obscure-citadel-61856",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"topics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add \"java-streams\" Course",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"java-streams\",\n    \"name\": \"Java Streams\",\n    \"description\": \"Java Streams Description\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://obscure-citadel-61856.herokuapp.com/topics/java/courses",
+					"protocol": "https",
+					"host": [
+						"obscure-citadel-61856",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"topics",
+						"java",
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add \"spring-boot\" Course",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"spring-boot\",\n    \"name\": \"Spring Boot\",\n    \"description\": \"Spring Boot Description\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://obscure-citadel-61856.herokuapp.com/topics/spring/courses",
+					"protocol": "https",
+					"host": [
+						"obscure-citadel-61856",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"topics",
+						"spring",
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add \"java-streams-1\" Lesson",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"java-streams-1\",\n    \"name\": \"Java Streams 1\",\n    \"description\": \"Java Streams 1 Description\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://obscure-citadel-61856.herokuapp.com/topics/java/courses/java-streams/lessons",
+					"protocol": "https",
+					"host": [
+						"obscure-citadel-61856",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"topics",
+						"java",
+						"courses",
+						"java-streams",
+						"lessons"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update \"python\" Topic",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"python\",\n    \"name\": \"Updated Python\",\n    \"description\": \"Updated Python Description\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://obscure-citadel-61856.herokuapp.com/topics/python",
+					"protocol": "https",
+					"host": [
+						"obscure-citadel-61856",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"topics",
+						"python"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update \"java-streams\" Course",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"java-streams\",\n    \"name\": \"Updated Java Streams\",\n    \"description\": \"Updated Java Streams Description\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://obscure-citadel-61856.herokuapp.com/topics/java/courses/java-streams",
+					"protocol": "https",
+					"host": [
+						"obscure-citadel-61856",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"topics",
+						"java",
+						"courses",
+						"java-streams"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update \"java-streams-1\" Lesson",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": \"java-streams-1\",\n    \"name\": \"Updated Java Streams 1\",\n    \"description\": \"Updated Java Streams 1 Description\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://obscure-citadel-61856.herokuapp.com/topics/java/courses/java-streams/lessons/java-streams-1",
+					"protocol": "https",
+					"host": [
+						"obscure-citadel-61856",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"topics",
+						"java",
+						"courses",
+						"java-streams",
+						"lessons",
+						"java-streams-1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete \"spring\" Topic",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://obscure-citadel-61856.herokuapp.com/topics/python",
+					"protocol": "https",
+					"host": [
+						"obscure-citadel-61856",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"topics",
+						"python"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete \"java-streams\" Course",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://obscure-citadel-61856.herokuapp.com/topics/java/courses/java-streams",
+					"protocol": "https",
+					"host": [
+						"obscure-citadel-61856",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"topics",
+						"java",
+						"courses",
+						"java-streams"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete \"java-streams-1\" Lesson",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://obscure-citadel-61856.herokuapp.com/topics/java/courses/java-streams/lessons/java-streams-1",
+					"protocol": "https",
+					"host": [
+						"obscure-citadel-61856",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"topics",
+						"java",
+						"courses",
+						"java-streams",
+						"lessons",
+						"java-streams-1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
